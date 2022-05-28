@@ -128,9 +128,9 @@ p {
     line-height: 1;
   }
 }
-/*  global classes */
+/*  Global Classes */
 
-/* section */
+/* Section */
 .section {
   padding: 5rem 0;
 }
@@ -263,8 +263,10 @@ main {
   text-transform: capitalize;
   border-radius: var(--radius);
   transition: var(--transition);
-  border-color: var(--clr-primary-5);
   cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 8px 15px;
 }
 .random-btn:hover {
   background: var(--clr-primary-5);
